@@ -1,2 +1,2 @@
 # Dim-Wallet
-This wallet software 
+Dimension wallet software 

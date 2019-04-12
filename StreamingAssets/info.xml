@@ -1,0 +1,105 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Config>
+  <Node Type="string">
+    <Title>1</Title>
+    <Info0>多语言</Info0>
+    <Info1>multi-language</Info1>
+  </Node>
+  <Node Type="string">
+    <Title>2</Title>
+    <Info0>货币单位</Info0>
+    <Info1>monetary unit</Info1>
+  </Node>
+  <Node Type="string">
+    <Title>3</Title>
+    <Info0>修改密码</Info0>
+    <Info1>change password</Info1>
+  </Node>
+  <Node Type="string">
+    <Title>4</Title>
+    <Info0>备份种子</Info0>
+    <Info1>Backup seeds</Info1>
+  </Node>
+  <Node Type="string">
+    <Title>5</Title>
+    <Info0>验证种子</Info0>
+    <Info1>Verify the seeds</Info1>
+  </Node>
+  <Node Type="string">
+    <Title>6</Title>
+    <Info0>指纹登录</Info0>
+    <Info1>Fingerprint login</Info1>
+  </Node>
+  <Node Type="string">
+    <Title>7</Title>
+    <Info0>帮助</Info0>
+    <Info1>Help</Info1>
+  </Node>
+  <Node Type="string">
+    <Title>8</Title>
+    <Info0>关于我们</Info0>
+    <Info1>About us</Info1>
+  </Node>
+  <Node Type="string">
+    <Title>9</Title>
+    <Info0>设置</Info0>
+    <Info1>Setting</Info1>
+  </Node>
+  <Node Type="string">
+    <Title>10</Title>
+    <Info0>钱包</Info0>
+    <Info1>Wallet</Info1>
+  </Node>
+  <Node Type="string">
+    <Title>11</Title>
+    <Info0>资讯</Info0>
+    <Info1>News</Info1>
+  </Node>
+  <Node Type="string">
+    <Title>12</Title>
+    <Info0>地址不合法</Info0>
+    <Info1>
+    </Info1>
+  </Node>
+  <Node Type="string">
+    <Title>13</Title>
+    <Info0>没有足够的币</Info0>
+    <Info1>
+    </Info1>
+  </Node>
+  <Node Type="string">
+    <Title>14</Title>
+    <Info0>发送数量最低不能低于0.01</Info0>
+    <Info1>
+    </Info1>
+  </Node>
+  <Node Type="string">
+    <Title>15</Title>
+    <Info0>请输入发送数量</Info0>
+    <Info1>
+    </Info1>
+  </Node>
+  <Node Type="string">
+    <Title>16</Title>
+    <Info0>没有足够的资金</Info0>
+    <Info1>Not enough funds</Info1>
+  </Node>
+  <Node Type="string">
+    <Title>17</Title>
+    <Info0>网络异常</Info0>
+    <Info1>
+    </Info1>
+  </Node>
+  <Node Type="string">
+    <Title>18</Title>
+    <Info0>发送成功</Info0>
+    <Info1>
+    </Info1>
+  </Node>
+  <Node Type="string">
+    <Title>19</Title>
+    <Info0>余额</Info0>
+    <Info1>
+    </Info1>
+  </Node>
+</Config>

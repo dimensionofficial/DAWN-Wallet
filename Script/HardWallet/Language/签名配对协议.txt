@@ -1,0 +1,31 @@
+配对协议
+[sncode]&[extend_master_pubkey]&[mochinecode]
+说明
+1. 热钱包通过extend_master_pubkey或者各个币种的公钥，bip路径为
+BTC：m/44/0/0/0/0
+ETH：m/44/60/0/0/0
+EOS：m/44/194/0/0/0 和 m/44/194/0/0/1
+其他币种以此类推
+
+签名协议
+热钱包->冷钱包
+{“path”:"m/44/0/0/0/0","sign":"BTC","data":"[base64]"}
+说明
+1. path：需要签名的币的路径
+2. sign：sign字段的表示签名算法。可选的有以下五种
+	a. BTC
+	b. ETH
+	c. EOS
+	d: OT1, 其他币，签名算法1，不计算椭圆V
+	e：OT2，其他币，签名算法2，计算椭圆V
+3. data：btc和eth的data同以前的data，具体情况如下
+	a. BTC：同以前的整个json
+	b. ETH：同以前的整个json
+	c. EOS：data为需要签名的transaction的sha256的hex编码字符串
+	d. OT1，OT2：data为需要签名的数据的hex编码字符串
+冷钱包->热钱包
+	a. BTC：同以前，返回签好名的transaction的hex编码字符串
+	b. ETH：同以前，返回签好名的transaction的hex编码字符串
+	c. EOS：返回签好名的sign字符串
+	d. OT1：返回签好名的sign的rsv数据，格式为(hex)R&(hex)S&(int)v
+	e. OT2：返回签好名的sign的hex编码字符串

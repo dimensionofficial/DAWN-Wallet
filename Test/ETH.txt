@@ -1,0 +1,1 @@
+{"coinType":"ETH","data":{"addressFrom":"0xc980554C42D878D294AB58A67ecd4620480f20f4", "gas":"50000", "transferAmount":"100000000000000", "nonce":"0", "gasPrice":"5000000000", "addressTo":"0xd12aD9c31BD8fB8f70Bf42435537E5Aaad79068d"}}
