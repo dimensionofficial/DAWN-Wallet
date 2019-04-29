@@ -1,3 +1,3 @@
-# Dim-Wallet
+# DAWN-Wallet
 
 Dimension wallet software 
