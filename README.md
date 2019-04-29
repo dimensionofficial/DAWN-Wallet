@@ -1,3 +1,3 @@
 # DAWN-Wallet
 
-Dimension wallet software 
+Dimension wallet platform 
