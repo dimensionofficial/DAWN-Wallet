@@ -1,3 +1,3 @@
-# DAWN-Wallet
+# DAWN Wallet
 
-Dimension wallet platform 
+A fully secure and convient wallet for Dimension ecosystem
